@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BADEA2CA14C1B36D9A90C6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADEA8BB834CD674346DB72E /* Main.storyboard */; };
+		BADEA531217BC3D85383B529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADEA1848E9B03C7097255E1 /* SceneDelegate.swift */; };
+		BADEA8CD246AC1646924C49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADEA0D0A159623541E0E4E0 /* AppDelegate.swift */; };
+		BADEAAE5E93388CEB7F5291A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADEA7347C0E9A339582E240 /* Assets.xcassets */; };
+		BADEADE8A5CB90177FAA791D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADEAAB4DC9AD30B7F2D65D3 /* ViewController.swift */; };
+		FE5F1BE4252D058800A9522C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5F1BE2252D058800A9522C /* LaunchScreen.storyboard */; };
+		FE8CED22252D16DA005AB057 /* CatchTheAgraelTheme.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE8CED21252D16DA005AB057 /* CatchTheAgraelTheme.wav */; };
+		FE9EEE8A252D1975003B8E4E /* doh.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE9EEE89252D1975003B8E4E /* doh.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BADEA0D0A159623541E0E4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BADEA1848E9B03C7097255E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BADEA1EA1304B40C8AF934B2 /* Catch the Agraelus!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch the Agraelus!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADEA609CDEDD9B1683FBAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		BADEA6167491DD9077BE10F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BADEA7347C0E9A339582E240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BADEAAB4DC9AD30B7F2D65D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE5F1BE3252D058800A9522C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Catch the Agraelus!/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		FE8CED21252D16DA005AB057 /* CatchTheAgraelTheme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CatchTheAgraelTheme.wav; path = Sounds/CatchTheAgraelTheme.wav; sourceTree = "<group>"; };
+		FE9EEE89252D1975003B8E4E /* doh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = doh.wav; path = Sounds/doh.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADEA1CD667F6CCD1D1256B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BADEA0C5C76AAADD8B095662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADEA1EA1304B40C8AF934B2 /* Catch the Agraelus!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADEA5FBCF7EB8A45CADBFF0 /* Catch the Agraelus! */ = {
+			isa = PBXGroup;
+			children = (
+				BADEA609CDEDD9B1683FBAF3 /* Info.plist */,
+				BADEA7347C0E9A339582E240 /* Assets.xcassets */,
+				BADEA0D0A159623541E0E4E0 /* AppDelegate.swift */,
+				BADEA1848E9B03C7097255E1 /* SceneDelegate.swift */,
+				BADEAAB4DC9AD30B7F2D65D3 /* ViewController.swift */,
+				BADEA8BB834CD674346DB72E /* Main.storyboard */,
+				FE5F1BE2252D058800A9522C /* LaunchScreen.storyboard */,
+			);
+			path = "Catch the Agraelus!";
+			sourceTree = "<group>";
+		};
+		BADEAF46AA3551555752EEAD = {
+			isa = PBXGroup;
+			children = (
+				FE9EEE89252D1975003B8E4E /* doh.wav */,
+				FE8CED21252D16DA005AB057 /* CatchTheAgraelTheme.wav */,
+				BADEA0C5C76AAADD8B095662 /* Products */,
+				BADEA5FBCF7EB8A45CADBFF0 /* Catch the Agraelus! */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADEAF017FB444B748CF0EB2 /* Catch the Agraelus! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADEA42DA447203428AD8899 /* Build configuration list for PBXNativeTarget "Catch the Agraelus!" */;
+			buildPhases = (
+				BADEA9EAD20082183A3F8B5A /* Sources */,
+				BADEA1CD667F6CCD1D1256B3 /* Frameworks */,
+				BADEA430ED5B7AF30FE53AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Catch the Agraelus!";
+			productName = "Catch the Agraelus!";
+			productReference = BADEA1EA1304B40C8AF934B2 /* Catch the Agraelus!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADEA6FB6A3C8E7C817FB54F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = JakubJirak;
+				TargetAttributes = {
+					BADEAF017FB444B748CF0EB2 = {
+						DevelopmentTeam = 7ARF7UDLQ6;
+					};
+				};
+			};
+			buildConfigurationList = BADEA8235DEF2B0374BA05F2 /* Build configuration list for PBXProject "Catch the Agraelus!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = BADEAF46AA3551555752EEAD;
+			productRefGroup = BADEA0C5C76AAADD8B095662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADEAF017FB444B748CF0EB2 /* Catch the Agraelus! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADEA430ED5B7AF30FE53AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9EEE8A252D1975003B8E4E /* doh.wav in Resources */,
+				FE8CED22252D16DA005AB057 /* CatchTheAgraelTheme.wav in Resources */,
+				FE5F1BE4252D058800A9522C /* LaunchScreen.storyboard in Resources */,
+				BADEAAE5E93388CEB7F5291A /* Assets.xcassets in Resources */,
+				BADEA2CA14C1B36D9A90C6A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADEA9EAD20082183A3F8B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADEA8CD246AC1646924C49D /* AppDelegate.swift in Sources */,
+				BADEA531217BC3D85383B529 /* SceneDelegate.swift in Sources */,
+				BADEADE8A5CB90177FAA791D /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BADEA8BB834CD674346DB72E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADEA6167491DD9077BE10F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE5F1BE2252D058800A9522C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE5F1BE3252D058800A9522C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADEA1D143BD8FE6DA9989A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ARF7UDLQ6;
+				INFOPLIST_FILE = "Catch the Agraelus!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubjirak.Catch-the-Agraelus-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BADEA2CF1E8FDC9DABEFC1CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BADEA6C9E2EB293477F110E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADEABEE562679A6E7087A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ARF7UDLQ6;
+				INFOPLIST_FILE = "Catch the Agraelus!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubjirak.Catch-the-Agraelus-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADEA42DA447203428AD8899 /* Build configuration list for PBXNativeTarget "Catch the Agraelus!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEABEE562679A6E7087A3D /* Debug */,
+				BADEA1D143BD8FE6DA9989A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADEA8235DEF2B0374BA05F2 /* Build configuration list for PBXProject "Catch the Agraelus!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEA2CF1E8FDC9DABEFC1CC /* Debug */,
+				BADEA6C9E2EB293477F110E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BADEA6FB6A3C8E7C817FB54F /* Project object */;
+}
