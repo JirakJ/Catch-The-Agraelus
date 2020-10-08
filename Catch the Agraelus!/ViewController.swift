@@ -46,6 +46,7 @@ class ViewController: UIViewController {
     }
 
     //Views
+    @IBOutlet var gamePane: UIView!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var highscoreLabel: UILabel!
@@ -75,6 +76,7 @@ class ViewController: UIViewController {
             highscoreLabel.text = "High score: \(highScore)"
         }
 
+        gamePane.isUserInteractionEnabled = true
         agraelus1.isUserInteractionEnabled = true
         agraelus2.isUserInteractionEnabled = true
         agraelus3.isUserInteractionEnabled = true
@@ -85,6 +87,7 @@ class ViewController: UIViewController {
         agraelus8.isUserInteractionEnabled = true
         agraelus9.isUserInteractionEnabled = true
 
+        let recognizer0 = UITapGestureRecognizer(target: self, action:#selector(decreaseScore))
         let recognizer1 = UITapGestureRecognizer(target: self, action:#selector(increaseScore))
         let recognizer2 = UITapGestureRecognizer(target: self, action:#selector(increaseScore))
         let recognizer3 = UITapGestureRecognizer(target: self, action:#selector(increaseScore))
@@ -95,6 +98,7 @@ class ViewController: UIViewController {
         let recognizer8 = UITapGestureRecognizer(target: self, action:#selector(increaseScore))
         let recognizer9 = UITapGestureRecognizer(target: self, action:#selector(increaseScore))
 
+        gamePane.addGestureRecognizer(recognizer0)
         agraelus1.addGestureRecognizer(recognizer1)
         agraelus2.addGestureRecognizer(recognizer2)
         agraelus3.addGestureRecognizer(recognizer3)
@@ -113,6 +117,16 @@ class ViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(countDown), userInfo: nil, repeats: true)
         hideTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(hideAgrael), userInfo: nil, repeats: true)
 
+        hideAgrael()
+    }
+
+    @objc func decreaseScore(){
+        generator.notificationOccurred(.error)
+        if(score>1){
+            score -= 1
+        }
+        scoreLabel.text = "Score: \(score)"
+        playSound(soundName: "nope")
         hideAgrael()
     }
 

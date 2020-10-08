@@ -15,6 +15,7 @@
 		FE5F1BE4252D058800A9522C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5F1BE2252D058800A9522C /* LaunchScreen.storyboard */; };
 		FE8CED22252D16DA005AB057 /* CatchTheAgraelTheme.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE8CED21252D16DA005AB057 /* CatchTheAgraelTheme.wav */; };
 		FE9EEE8A252D1975003B8E4E /* doh.wav in Resources */ = {isa = PBXBuildFile; fileRef = FE9EEE89252D1975003B8E4E /* doh.wav */; };
+		FEDC48EB252EE6F3002696C1 /* nope.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEDC48EA252EE6F3002696C1 /* nope.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FE5F1BE3252D058800A9522C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Catch the Agraelus!/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		FE8CED21252D16DA005AB057 /* CatchTheAgraelTheme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CatchTheAgraelTheme.wav; path = Sounds/CatchTheAgraelTheme.wav; sourceTree = "<group>"; };
 		FE9EEE89252D1975003B8E4E /* doh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = doh.wav; path = Sounds/doh.wav; sourceTree = "<group>"; };
+		FEDC48EA252EE6F3002696C1 /* nope.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = nope.wav; path = Sounds/nope.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		BADEAF46AA3551555752EEAD = {
 			isa = PBXGroup;
 			children = (
+				FEDC48EA252EE6F3002696C1 /* nope.wav */,
 				FE9EEE89252D1975003B8E4E /* doh.wav */,
 				FE8CED21252D16DA005AB057 /* CatchTheAgraelTheme.wav */,
 				BADEA0C5C76AAADD8B095662 /* Products */,
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDC48EB252EE6F3002696C1 /* nope.wav in Resources */,
 				FE9EEE8A252D1975003B8E4E /* doh.wav in Resources */,
 				FE8CED22252D16DA005AB057 /* CatchTheAgraelTheme.wav in Resources */,
 				FE5F1BE4252D058800A9522C /* LaunchScreen.storyboard in Resources */,

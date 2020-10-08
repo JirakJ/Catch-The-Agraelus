@@ -121,6 +121,7 @@
                         <outlet property="agraelus7" destination="Len-tH-PDe" id="f5B-Lu-qHt"/>
                         <outlet property="agraelus8" destination="sHf-gc-fLf" id="cRf-G2-3L6"/>
                         <outlet property="agraelus9" destination="KG7-XA-KBi" id="Cd1-xC-7qX"/>
+                        <outlet property="gamePane" destination="8bC-Xf-vdC" id="oNu-bc-ENX"/>
                         <outlet property="highscoreLabel" destination="OxA-b8-Fyx" id="QQV-5S-ZtJ"/>
                         <outlet property="scoreLabel" destination="tNx-Yv-Sue" id="tdp-7r-HeS"/>
                         <outlet property="timeLabel" destination="2KR-K7-jfs" id="nIx-qW-PtK"/>
