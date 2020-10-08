@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="5vR-KJ-38D">
             <objects>
-                <viewController id="koA-N0-UY3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainMenuView" id="koA-N0-UY3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wf6-be-x9u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +25,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="semibold"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="LGk-ul-jgk"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="g7N-ky-VVd"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agraelus_head" translatesAutoresizingMaskIntoConstraints="NO" id="goD-yR-Mca">
@@ -99,7 +99,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNx-Yv-Sue">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skóre: 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNx-Yv-Sue">
                                 <rect key="frame" x="0.0" y="144" width="414" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -112,6 +112,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Ieu-jn-Yho"/>
                     <connections>
+                        <outlet property="scoreLabel" destination="tNx-Yv-Sue" id="tdp-7r-HeS"/>
                         <outlet property="agraelus1" destination="geh-gW-ViF" id="DCo-oP-tfF"/>
                         <outlet property="agraelus2" destination="GVp-sw-iX3" id="mA0-RK-R2E"/>
                         <outlet property="agraelus3" destination="e8j-Ey-Jpb" id="ONI-7C-TGn"/>
@@ -123,7 +124,6 @@
                         <outlet property="agraelus9" destination="KG7-XA-KBi" id="Cd1-xC-7qX"/>
                         <outlet property="gamePane" destination="8bC-Xf-vdC" id="oNu-bc-ENX"/>
                         <outlet property="highscoreLabel" destination="OxA-b8-Fyx" id="QQV-5S-ZtJ"/>
-                        <outlet property="scoreLabel" destination="tNx-Yv-Sue" id="tdp-7r-HeS"/>
                         <outlet property="timeLabel" destination="2KR-K7-jfs" id="nIx-qW-PtK"/>
                     </connections>
                 </viewController>

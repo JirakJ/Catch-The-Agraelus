@@ -63,7 +63,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
     super.viewDidLoad()
         playTheme()
-        scoreLabel.text = "Score: \(score)"
+        scoreLabel.text = "Skóre: \(score)"
 
         let storedHighScore = UserDefaults.standard.object(forKey: "catchTheAgraelusHighScore")
         if(storedHighScore == nil){
@@ -125,7 +125,7 @@ class ViewController: UIViewController {
         if(score>1){
             score -= 1
         }
-        scoreLabel.text = "Score: \(score)"
+        scoreLabel.text = "Skóre: \(score)"
         playSound(soundName: "nope")
         hideAgrael()
     }
@@ -134,7 +134,7 @@ class ViewController: UIViewController {
         generator.notificationOccurred(.success)
 
         score += 1
-        scoreLabel.text = "Score: \(score)"
+        scoreLabel.text = "Skóre: \(score)"
         playSound(soundName: "doh")
         hideAgrael()
     }
@@ -186,15 +186,15 @@ class ViewController: UIViewController {
             //Alert
             let alert = UIAlertController(title: "Čas vypršel", message: "Chceš si zahrát znovu?\nTvoje skóre bylo: \(score)", preferredStyle: UIAlertController.Style.alert)
 
-            let replayButton = UIAlertAction(title: "Nová hra", style: UIAlertAction.Style.default){
+            let replayButton = UIAlertAction(title: "Ano", style: UIAlertAction.Style.default){
                 (UIAlertAction) in
                 //replay function
                 if(self.score > self.highScore){
                     self.highScore = self.score
-                    self.highscoreLabel.text = "Highscore: \(self.highScore)"
+                    self.highscoreLabel.text = "Nejlepší skóre:: \(self.highScore)"
                 }
                 self.score = 0
-                self.scoreLabel.text = "Score: \(self.score)"
+                self.scoreLabel.text = "Skóre: \(self.score)"
                 self.counter = 30
                 self.timeLabel.text = String(self.counter)
 
@@ -202,7 +202,22 @@ class ViewController: UIViewController {
                 self.hideTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(self.hideAgrael), userInfo: nil, repeats: true)
                 self.playTheme()
             }
+            
+            let noButton = UIAlertAction(title: "NE", style: UIAlertAction.Style.default){
+                (UIAlertAction) in
+                //replay function
+                if(self.score > self.highScore){
+                    self.highScore = self.score
+                    self.highscoreLabel.text = "Nejlepší skóre:: \(self.highScore)"
+                }
+                
+                self.timer.invalidate()
+                self.hideTimer.invalidate()
+                let viewController = self.storyboard?.instantiateViewController(withIdentifier: "mainMenuView")
+                self.present(viewController!, animated: true, completion: nil)
+            }
             alert.addAction(replayButton)
+            alert.addAction(noButton)
             self.present(alert, animated: true, completion: nil)
         }
     }
